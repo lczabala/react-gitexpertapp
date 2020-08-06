@@ -20,7 +20,7 @@ const GifGrid = ({category}) => {
         <div>
             <h3 className="animate__animated animate__fadeIn"> {category} </h3>
             <div className="row row-cols-1 row-cols-md-4">
-                {loading && <p className="loading animate__animated animate__zoomIn">Cargando..</p>}
+                {loading && <p className="loading animate__animated animate__flash">Cargando..</p>}
                 {
                    //se mapea el estado, obteniendo todos los registros que en el se contiene 
                     data.map( img => (
