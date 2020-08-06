@@ -24,3 +24,9 @@ h2{
   height: 65%;
 }
 
+.loading{
+  text-align: center;
+  margin: 1rem;
+  color: darkgreen;
+}
+

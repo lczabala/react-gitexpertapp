@@ -4,7 +4,7 @@ import React from 'react';
 const GifGridItem = ({title, img}) => {
     return (
 
-        <div className="col mb-6 margin">
+        <div className="col mb-6 margin animate__animated animate__zoomIn">
             <div className="card h-100">
                 <img src={img} className="card-img-top gif" alt="..." />
                 <div className="card-body">
